@@ -1,0 +1,16 @@
+- Backend:
+    - express
+    - typeScript
+    - cors
+    - dotnev
+    - morgan
+    - pg-promise
+
+- FrontEnd:
+    - react
+    - sass
+    - @mui/material
+    - @emotion/react
+    - @emotion/styled
+    - @mui/icons-material
+    - axios
