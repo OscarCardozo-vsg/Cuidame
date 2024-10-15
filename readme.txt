@@ -15,24 +15,25 @@ FUNCIONALIDADES:
 
 LIBRERIAS Y DEPENDENCIAS:
 
-- FrontEnd:
-    - react
-    - sass
-    - @mui/material
-    - @emotion/react
-    - @emotion/styled
-    - @mui/icons-material
-    - axios
-    - react-router-dom
+- Backend:
+    - express
+    - typeScript
+    - cors
+    - dotnev
+    - morgan
+    - pg-promise
+    - multer
 
 EJECUCIÓN:
 
-*) FRONTEND:
+*) BACKEND:
 
-	2) Abir la terminal en la carpeta frontend y descargar las dependencias necesarias:
-		- npm install react sass @mui/material @emotion/react @emotion/styled @mui/icons-material axios react-router-dom
+	1) Crear la base de datos y configurar los valores en el archivo del backend: src/config/dominios/varDB.ts
 
-	3) Ejecutar el frontend por medio del comando:
-		- npm start
+	2) Abir la terminal en la carpeta backend y descargar las dependencias necesarias:
+		- npm install express typescript cors dotenv morgan pg-promise multer
 
-*) El frontend por defecto corre en la URL http://localhost:3000.
+	3) Ejecutar el backend por medio del comando:
+		- npm run dev
+
+*) El servidor backend por defecto corre en la URL http://localhost:8082.
