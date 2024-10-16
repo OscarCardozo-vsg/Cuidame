@@ -28,12 +28,15 @@ EJECUCIÓN:
 
 *) BACKEND:
 
-	1) Crear la base de datos y configurar los valores en el archivo del backend: src/config/dominios/varDB.ts
+	1) Crear la base de datos en un sistema gestor de base de datos ( En este caso use postgresSQL ), 
+	   e implementar las sentencias encontradas en la carpeta: src/config/db/PruebaTecnicaBD.sql
 
-	2) Abir la terminal en la carpeta backend y descargar las dependencias necesarias:
+	2) Crear la base de datos y configurar los valores en el archivo del backend: src/config/dominios/varDB.ts
+
+	3) Abir la terminal en la carpeta backend y descargar las dependencias necesarias:
 		- npm install express typescript cors dotenv morgan pg-promise multer
 
-	3) Ejecutar el backend por medio del comando:
+	4) Ejecutar el backend por medio del comando:
 		- npm run dev
 
 *) El servidor backend por defecto corre en la URL http://localhost:8082.
